@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mai Xuân Chiến - Frontend Developer</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-mobile" id="navbar">
+      <div class="nav-container">
+        <div class="logo">Mai Xuân Chiến</div>
+        <ul class="nav-links">
+          <li><a href="#home">Trang chủ</a></li>
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#skills">Kỹ năng</a></li>
+          <li><a href="#experience">Kinh nghiệm</a></li>
+          <li><a href="#projects">Dự án</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-subtitle">Xin chào, tôi là</div>
+          <h1 class="hero-title">Mai Xuân Chiến</h1>
+          <p class="hero-description">
+            Frontend Developer với hơn 1 năm kinh nghiệm chuyên sâu về ReactJS,
+            Redux và UI/UX. Đam mê tạo ra những trải nghiệm web tương tác và
+            hiện đại.
+          </p>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">1+</span>
+              <span class="stat-label">Năm kinh nghiệm</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Dự án hoàn thành</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">8.0</span>
+              <span class="stat-label">GPA</span>
+            </div>
+          </div>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-code"></i>
+              Xem dự án
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-envelope"></i>
+              Liên hệ
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image">
+            <i class="fas fa-code"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">Giới thiệu về tôi</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="profile-card">
+              <div class="profile-pic">
+                <i class="fas fa-user"></i>
+              </div>
+              <h4>Mai Xuân Chiến</h4>
+              <p>Frontend Developer</p>
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Frontend Developer đam mê UI/UX</h3>
+            <p>
+              Tôi là Frontend Developer với hơn 1 năm kinh nghiệm về ReactJS,
+              Redux, Ant Design. Có kinh nghiệm tối ưu hiệu suất, làm việc với
+              REST API và xây dựng UI thân thiện người dùng. Đã tham gia phát
+              triển sản phẩm OnCustomer tại Novaon Tech.
+            </p>
+            <p>
+              Mong muốn phát triển thành Frontend Developer chuyên sâu về
+              ReactJS, tối ưu hiệu suất UI/UX và mở rộng kỹ năng với các
+              framework khác, TypeScript. Mục tiêu trong 2 năm tới là trở thành
+              một React Lead hoặc Fullstack Developer.
+            </p>
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-birthday-cake"></i>
+                </div>
+                <div>
+                  <strong>Ngày sinh:</strong><br />
+                  18/02/2001
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                  <strong>Điện thoại:</strong><br />
+                  0326829206
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <strong>Email:</strong><br />
+                  maichien.edu.com@gmail.com
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <strong>Địa chỉ:</strong><br />
+                  Nam Từ Liêm, Hà Nội
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">Kỹ năng chuyên môn</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>
+              <div class="skill-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              Frontend
+            </h3>
+            <div class="skill-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3/SCSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">ReactJS</span>
+              <span class="skill-tag">Redux</span>
+              <span class="skill-tag">Material UI</span>
+              <span class="skill-tag">Antd</span>
+              <span class="skill-tag">RESTful API</span>
+              <span class="skill-tag">Responsive</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>
+              <div class="skill-icon">
+                <i class="fas fa-server"></i>
+              </div>
+              Backend
+            </h3>
+            <div class="skill-list">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">SQL Server</span>
+              <span class="skill-tag">JWT</span>
+              <span class="skill-tag">Mongoose</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>
+              <div class="skill-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              Tools & Others
+            </h3>
+            <div class="skill-list">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">PSD to HTML</span>
+              <span class="skill-tag">React Native</span>
+              <span class="skill-tag">Agile/Scrum</span>
+              <span class="skill-tag">i18next</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>
+              <div class="skill-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              Soft Skills
+            </h3>
+            <div class="skill-list">
+              <span class="skill-tag">Teamwork</span>
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">UI/UX Thinking</span>
+              <span class="skill-tag">Self Learning</span>
+              <span class="skill-tag">Communication</span>
+              <span class="skill-tag">Time Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+      <div class="container">
+        <h2 class="section-title">Kinh nghiệm làm việc</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">07/2023 - Hiện tại</div>
+              <h3 class="timeline-title">Frontend Developer</h3>
+              <div class="timeline-company">Công ty cổ phần Novaon Tech</div>
+              <div class="timeline-description">
+                <ul>
+                  <li>
+                    Thực hiện các nguyên tắc để thiết kế và phát triển website,
+                    đảm bảo đúng "Coding convention"
+                  </li>
+                  <li>
+                    Thiết kế các giao diện bằng ReactJS với Redux và RESTful API
+                  </li>
+                  <li>
+                    Sử dụng React Hook để tối ưu hóa hiệu suất render component
+                  </li>
+                  <li>
+                    Đảm bảo code clean và có thể chỉnh sửa hay tái sử dụng một
+                    cách dễ dàng
+                  </li>
+                  <li>
+                    Tham gia phát triển dự án OnCustomer - nền tảng đa kênh chăm
+                    sóc khách hàng
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">01/2023 - 07/2023</div>
+              <h3 class="timeline-title">Thực tập sinh Frontend</h3>
+              <div class="timeline-company">Công ty cổ phần Novaon Tech</div>
+              <div class="timeline-description">
+                <ul>
+                  <li>Học tập và thiết kế giao diện bằng HTML/CSS/jQuery</li>
+                  <li>
+                    Tham gia vào dự án công ty sử dụng ReactJS, Redux, RESTful
+                    API
+                  </li>
+                  <li>
+                    Làm quen với quy trình phát triển phần mềm và coding
+                    convention
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Dự án nổi bật</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">OnCustomer Platform</h3>
+              <div class="project-type">Dự án công ty • 07/2023 - Hiện tại</div>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                OnCustomer là một nền tảng đa kênh giúp các doanh nghiệp tối ưu
+                hóa việc chăm sóc khách hàng. Tôi đảm nhận vai trò Frontend
+                Developer, thiết kế và phát triển giao diện người dùng thân
+                thiện.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">Redux</span>
+                <span class="tech-tag">Ant Design</span>
+                <span class="tech-tag">Lodash</span>
+                <span class="tech-tag">MomentJS</span>
+                <span class="tech-tag">i18next</span>
+              </div>
+              <!-- <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                  View Project
+                </a>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">E-Commerce Platform</h3>
+              <div class="project-type">Dự án cá nhân • 12/2024 - Hiện tại</div>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Website thương mại điện tử fullstack với đầy đủ chức năng mua
+                sắm, quản lý đơn hàng, sản phẩm và giao diện quản trị. Tích hợp
+                cổng thanh toán VNPay và hệ thống đa ngôn ngữ.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">ReactJS</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Redux</span>
+                <span class="tech-tag">Ant Design</span>
+                <span class="tech-tag">VNPay</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/maichien1232001/ecommerce/frontend"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i>
+                  Frontend
+                </a>
+                <a
+                  href="https://github.com/maichien1232001/ecommerce/backend"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i>
+                  Backend
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+      <div class="container">
+        <h2 class="section-title">Học vấn & Thành tích</h2>
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3 class="education-degree">Cử nhân Công nghệ thông tin</h3>
+          <div class="education-school">Đại học Thái Bình</div>
+          <div class="education-details">
+            <div class="education-detail">
+              <div class="detail-label">Thời gian</div>
+              <div class="detail-value">2019 - 2023</div>
+            </div>
+            <div class="education-detail">
+              <div class="detail-label">Xếp loại</div>
+              <div class="detail-value">Tốt nghiệp loại Giỏi</div>
+            </div>
+            <div class="education-detail">
+              <div class="detail-label">Điểm TB</div>
+              <div class="detail-value">8.0/10</div>
+            </div>
+          </div>
+          <div
+            style="
+              margin-top: 2rem;
+              padding: 1rem;
+              background: var(--bg-secondary);
+              border-radius: 10px;
+            "
+          >
+            <h4 style="color: var(--primary-color); margin-bottom: 0.5rem">
+              <i class="fas fa-trophy"></i> Giải thưởng
+            </h4>
+            <p style="color: var(--text-secondary)">
+              <strong>Giải nhất cuộc thi Nghiên cứu khoa học</strong> do trường
+              tổ chức (2022)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Liên hệ với tôi</h2>
+        <div class="contact-content">
+          <div class="contact-info-section">
+            <h3>Thông tin liên hệ</h3>
+            <div class="contact-item-large">
+              <div class="contact-icon-large">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Điện thoại</h4>
+                <p>0326829206</p>
+              </div>
+            </div>
+            <div class="contact-item-large">
+              <div class="contact-icon-large">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>maichien.edu.com@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item-large">
+              <div class="contact-icon-large">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Địa chỉ</h4>
+                <p>Nam Từ Liêm, Hà Nội</p>
+              </div>
+            </div>
+            <div class="contact-item-large">
+              <div class="contact-icon-large">
+                <i class="fab fa-github"></i>
+              </div>
+              <div>
+                <h4>GitHub</h4>
+                <p>github.com/maichien1232001</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3 style="margin-bottom: 1.5rem; color: var(--accent-color)">
+              Gửi tin nhắn
+            </h3>
+            <form>
+              <div class="form-group">
+                <label for="name">Họ và tên</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Tin nhắn</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i>
+                Gửi tin nhắn
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/mai.chien.931227/"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://github.com/maichien1232001"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:maichien.edu.com@gmail.com" class="social-link">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="tel:0326829206" class="social-link">
+            <i class="fas fa-phone"></i>
+          </a>
+        </div>
+        <p>&copy; 2024 Mai Xuân Chiến. Tất cả quyền được bảo lưu.</p>
+        <p style="margin-top: 0.5rem; opacity: 0.7">
+          <i class="fas fa-heart" style="color: #e74c3c"></i>
+          Thiết kế với đam mê bởi Mai Xuân Chiến
+        </p>
+      </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+  <script src="main.js"></script>
+</html>
