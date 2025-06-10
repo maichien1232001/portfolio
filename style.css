@@ -7,11 +7,9 @@
   --bg-primary: #ffffff;
   --bg-secondary: #f8fafc;
   --bg-dark: #0f172a;
-  --gradient: linear-gradient(
-    135deg,
-    var(--primary-color),
-    var(--secondary-color)
-  );
+  --gradient: linear-gradient(135deg,
+      var(--primary-color),
+      var(--secondary-color));
   --shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   --shadow-lg: 0 35px 60px -12px rgba(0, 0, 0, 0.35);
 }
@@ -245,11 +243,9 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.3)
-  );
+  background: linear-gradient(45deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.3));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -588,11 +584,9 @@ body {
   right: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.1) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 70%);
   animation: shimmer 3s ease-in-out infinite;
 }
 
@@ -878,6 +872,7 @@ body {
     opacity: 0;
     transform: translateX(-50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -889,6 +884,7 @@ body {
     opacity: 0;
     transform: translateX(50px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -896,10 +892,12 @@ body {
 }
 
 @keyframes float {
+
   0%,
   100% {
     transform: translateY(0px);
   }
+
   50% {
     transform: translateY(-20px);
   }
@@ -909,6 +907,7 @@ body {
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(100%);
   }
@@ -920,7 +919,7 @@ body {
     display: block;
   }
 
-  .navbar-mobile .nav-links{
+  .navbar-mobile .nav-links {
     display: flex;
     gap: 1.5rem;
     position: absolute;
@@ -934,6 +933,7 @@ body {
     display: none;
     z-index: 1000;
   }
+
   .navbar-mobile .nav-links.active {
     display: flex;
   }
@@ -955,6 +955,10 @@ body {
 
   .hero-stats {
     justify-content: center;
+  }
+
+  .profile-card {
+    transform: rotate(0deg)
   }
 
   .about-content {
@@ -1036,4 +1040,3 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
 }
-
