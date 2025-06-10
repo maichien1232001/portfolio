@@ -155,18 +155,3 @@ console.log(`
   
   Cảm ơn bạn đã xem portfolio của tôi!
   `);
-
-// Rediect to browser on Android Device
-const url = "https://portfolio-kappa-eight-54.vercel.app/";
-
-const isAndroid = /Android/i.test(navigator.userAgent);
-const isMessenger = /FBAN|FBAV/i.test(navigator.userAgent);
-
-if (isAndroid && isMessenger) {
-  window.location = `intent://${url.replace(
-    /^https?:\/\//,
-    ""
-  )}#Intent;scheme=https;package=com.android.chrome;end`;
-} else {
-  window.location = url;
-}
