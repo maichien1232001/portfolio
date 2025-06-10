@@ -316,7 +316,7 @@ body {
   transform: rotate(0deg) scale(1.05);
 }
 
-.profile-pic {
+.profile-pic img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -946,6 +946,7 @@ body {
   .hero-container {
     grid-template-columns: 1fr;
     text-align: center;
+    margin-top: 70px;
   }
 
   .hero-title {
